@@ -9,7 +9,7 @@ console.log(colors[0]);
 // 5. Access the third color in the array and print it to the console using `console.log()`
 console.log(colors[2]);
 // 6. Access the last color in the array and print it to the console using `console.log()`
-console.log(colors[4]);
+console.log(colors[colors.length-1]);
 // 7. Write one line of code that changes the value of the first color in the list to "black" (overwriting the previous value).
 colors[0] = "black";
 // 8. Write one line of code that changes the value of the last color in the list to "ultraviolet" (overwriting the previous value).
@@ -46,7 +46,8 @@ for (color of colors){
 // 19. Create a variable named lastColor that will always point to the last element of the colors array, no matter how many colors are in the list. (Hint: make use of the array's length property for this!)
 let lastcolor; 
 for(i = 1; i < colors.length; i++){
-    console.log(colors.length);
+    lastcolor = colors[colors.length-1];
+    console.log(lastcolor);
 }
 // 20. Add a new color `tomato` to the index 45. And check the length of the array. Use `console.log` to print.
 colors[45] = "tomato";
