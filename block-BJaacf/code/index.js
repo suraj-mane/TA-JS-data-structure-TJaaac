@@ -72,7 +72,7 @@ divNumber(number);
 // 10. Find all the number in the array that is divisible by 3
 function divThreeNumber(number){
     for(let i = 0; i < number.length; i++){
-        if(number[i] % 3 == 0){
+        if(number[i] % 3== 0){
             console.log(number[i]);
         }
     }
